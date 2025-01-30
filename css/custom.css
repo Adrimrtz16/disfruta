@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    border: 1px solid #000;
+} 
+
+
+.nav-link{
+    color: #000000;
+}
+.nav-link:hover{
+    color: rgb(255, 240, 240);
+}
+.navbar-nav{
+    text-align: center;
+}
+
+.rosa {
+    background-color: #f19998;
+}
+
+.footer{
+    
+}
+
+.logo{
+    width:60px;
+}
+
+.sin{
+    padding: 0px;
+}
+
+<<<<<<< HEAD
+.subtitulo {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+  }
+
+  .imagentamaño{
+    max-width: 800px;
+=======
+.azul{
+    background-color: lightblue;
+    min-height: 50px;
+}
+.azul2{
+    background-color: aqua;
+    min-height: 50px;
+}
+
+.gris{
+    background-color: rgb(208, 208, 208);
+    min-height: 50px;
+}
+
+.amarillo{
+    background-color: rgb(255, 255, 0);
+    min-height: 50px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(255, 143, 109);
+    min-height: 50px;
+}
+
+.uno{
+    background-color: rgb(254, 0, 0);
+    min-height: 50px;
+}
+
+.dos{
+    background-color: rgb(0, 254, 237);
+    min-height: 50px;
+}
+
+.tres{
+    background-color: rgb(254, 0, 0);
+    min-height: 50px;
+}
+@media screen and (min-width:576px){ 
+
+    
+}
+
+@media screen and (min-width:768px){ 
+
+    
+}
+
+@media screen and (min-width:992px){ 
+
+    
+}
+
+@media screen and (min-width:1200px){ 
+
+    
+}
+
+@media screen and (min-width:1400px){ 
+
+    
+>>>>>>> a9b13a7af2f55315660e9583db193d6dd93d4b1a
+}
