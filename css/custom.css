@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-html{
+html {
     font-family: 'Nunito', sans-serif;
 }
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
-    border: 1px solid #000;
-} 
 
-.nav-link{
+.nav-link {
     color: #000000;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(255, 240, 240);
 }
-.navbar-nav{
+
+.navbar-nav {
     text-align: center;
 }
 
@@ -21,39 +20,69 @@ html{
     background-color: #f19998;
 }
 
-.footer{
-    
+.logo {
+    width: 60px;
 }
 
-.logo{
-    width:60px;
-}
-
-.sin{
+.sin {
     padding: 0px;
 }
 
-@media screen and (min-width:576px){ 
-
-    
+.productos { 
+    margin: 0 auto;
 }
 
-@media screen and (min-width:768px){ 
-
-    
+.productos img {
+    width: 100%;
+    border: #000 1px solid;
+    margin: 20px 0;
 }
 
-@media screen and (min-width:992px){ 
-
-    
+.productos img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
-@media screen and (min-width:1200px){ 
-
-    
+.productos h4, .productos p {
+    text-align: center;
 }
 
-@media screen and (min-width:1400px){ 
+.subtitulo {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
 
-    
+.parrafo {
+    text-align: center;
+    margin: 10px;
+}
+
+.margen {
+    margin: 20px 0;
+}
+
+.texto-pequeño {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Media queries para diferentes resoluciones */
+@media screen and (min-width:576px) { 
+    /* Estilos para pantallas pequeñas */
+}
+
+@media screen and (min-width:768px) { 
+    /* Estilos para pantallas medianas */
+}
+
+@media screen and (min-width:992px) { 
+    /* Estilos para pantallas grandes */
+}
+
+@media screen and (min-width:1200px) { 
+    /* Estilos para pantallas extra grandes */
+}
+
+@media screen and (min-width:1400px) { 
+    /* Estilos para pantallas muy grandes */
 }

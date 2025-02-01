@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disfruta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="scripts/correo.js" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row rosa">
+            <nav class="col-12 navbar ">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="imagenes/logo.png" alt="Bootstrap" width="40" height="40">
+                    </a>
+                    <h1>Disfruta</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="#">Platos</a>
+                            <a class="nav-link" href="#">Productos</a>
+                            <a class="nav-link" href="#">Restaurante</a>
+                            <a class="nav-link" href="#">Nuestro equipo</a>
+                            <a class="nav-link" href="#">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-12 subtitulo">
+                <h2>Nuestros productos</h2>
+            </div>
+        </div>
+        <div class="row">   <!-- Productos -->
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto1.webp" class="rounded-circle" alt="">
+                <h4>Macarons</h4>
+                <p>Macarons de diferentes sabores: fresa, frambuesa, mora, pistacho y arandanos</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto2.webp" class="rounded-circle" alt="">
+                <h4>Muffins de café</h4>
+                <p>Muffins con sabor a café adornados con crema pastelera usando colorantes naturales</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 productos">
+                <img src="imagenes/producto/producto3.webp" class="rounded-circle" alt="">
+                <h4>Batidos de frutas</h4>
+                <p>Batidos con leches naturales o vegetales de sabores como platano, fresa, cacao y pistacho</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 subtitulo">
+                <h2>Pedidos</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form id="pedidoForm">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Pedido</label>
+                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <br><br>
+                </form>
+            </div>
+        </div>
+        <div class="row"> <!-- Footer -->
+            <div class="footer rosa">
+                <div class="row margen">
+                    <div class="col-12">
+                        <p class="contacto contacto-margen"> C/Calle</p>
+                        <p class="contacto">Ubicación: Cartagena (Murcia)</p>
+                        <p class="contacto">Teléfono: 968 123 456</p>
+                        <p class="contacto">Email: contacto@contacto.com</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href=""> <!-- Poner enlaces -->
+                            <img src="imagenes/instagram.svg" alt="Instagram" class="logo">
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href="">
+                            <img src="imagenes/x.svg" alt="X" class="logo">
+                        </a>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <a href="">
+                            <img src="imagenes/facebook.svg" alt="Facebook" class="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 margen">
+                        <p class="texto-pequeño">© 2025 Dark web. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
