@@ -20,7 +20,7 @@ html {
     background-color: #f19998;
 }
 
-.logo {
+.redes {
     width: 60px;
 }
 
@@ -33,9 +33,9 @@ html {
 }
 
 .productos img {
-    width: 100%;
+    width: 80%;
     border: #000 1px solid;
-    margin: 20px 0;
+    margin: 20px 10%;
 }
 
 .productos img:hover {
@@ -66,23 +66,36 @@ html {
     font-size: 12px;
 }
 
+.formulario {
+    margin: 0 5%;
+}
+
+.logo {
+    width: 40px;
+}
+
 /* Media queries para diferentes resoluciones */
 @media screen and (min-width:576px) { 
-    /* Estilos para pantallas pequeñas */
+    /* Estilos para pantallas sm */
+
+    .formulario {
+        margin: 0 15%;
+    }
 }
 
 @media screen and (min-width:768px) { 
-    /* Estilos para pantallas medianas */
+    /* Estilos para pantallas md */
+
+    .formulario {
+        margin: 0 30%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    body{
+        font-size: 20px;
+    }
 }
 
-@media screen and (min-width:992px) { 
-    /* Estilos para pantallas grandes */
-}
-
-@media screen and (min-width:1200px) { 
-    /* Estilos para pantallas extra grandes */
-}
-
-@media screen and (min-width:1400px) { 
-    /* Estilos para pantallas muy grandes */
-}
