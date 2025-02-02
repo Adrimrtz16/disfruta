@@ -71,15 +71,127 @@ html {
 }
 
 .logo {
-    width: 40px;
+    width: 60px;
 }
 
+.centrado {
+    text-align: center;
+}
+
+/*Nuestro Equipo*/
+
+.equipo{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.equipo-hover img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.textoequipo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo-equipo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+.descripcion-equipo{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: paleturquoise;
+    border-radius: 30px;
+}
+
+.equipo-padding{        /*Separa el footer del body*/
+    padding-bottom: 50px;
+}
+
+/*Contacto*/
+
+.boton {
+    background-color: #f19998;  /* Rosa pastel */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.5s ;
+}
+
+.boton:hover {
+    background-color: #d57b91;  /* Rosa un poco más intenso en hover */
+}
+
+.contacto-form{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contacto-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.contacto-form input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+.padding-form{
+    padding-bottom: 25px;
+}
+.estilo-form{
+    background-color: paleturquoise;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.padding-contacto{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.margen-equipo{
+    margin: 0 0%;
+}
+
+.mapa {
+    width: 100%;
+}
 /* Media queries para diferentes resoluciones */
 @media screen and (min-width:576px) { 
     /* Estilos para pantallas sm */
 
     .formulario {
         margin: 0 15%;
+    }
+    
+    .equipo {
+        width: 60%;
+        margin: 10% 20% 10% 20%;
+    }
+    
+    .mapa {
+        height: 200px;
+    }
+
+    .margen-form {
+        margin-bottom: 20px;
     }
 }
 
@@ -100,6 +212,28 @@ html {
 
     .texto-pequeño{
         font-size: 16px;
+    }
+
+    .equipo {
+        width: 80%;
+        margin: 10%;
+    }
+    
+    .margen-index{
+        margin: 2% 25%;
+    }
+
+    .margen-equipo{
+        margin: 0 15%;
+    }
+
+    .mapa {
+        width: 100%;
+
+    }
+    .margen-form {
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 }
 
